@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(0deg, rgba(0, 2, 146, 0.575), rgba(9, 9, 248, 0.5)),url(/media/justin-eisner-ZOG7Zj7cfR8-unsplash\ 1.png);
+   /* background-color: rgb(13, 13, 192, 0.9); */
+    display: flex;
+    font-family: Inter;
+}
+
+.card{
+    height: 100vh;
+    color: white;
+}
+.left-side{
+    width: 40%;
+    align-items: center;
+}
+.right-side{
+    width: 60%;
+    color: black;
+}
+
+.card-image{
+    margin: 0px 40px;
+}
+.card-title{
+    margin: 60px;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.card-title h1{
+    margin: 20px 0;
+    font-size: 60px;
+}
+
+.card-title p{
+    font-size: 25px;
+    font-weight:800;
+}
+
+.login-card{
+    margin-left: 90px;
+    width: 70%;
+    height: 90vh;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.login-heading{
+    
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 45px;
+}
+.logo-img{
+   margin: auto;
+}
+
+.login-heading h2{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.info-form{
+    position: absolute;
+    top: 230px;
+    float: left;
+    width: 80%;
+    font-size: 20px;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    label{
+        margin-bottom: 10px;
+    }
+}
+
+.info-form input{
+    width: 90%;
+    height: 50px;
+    background: #1E57B51A;
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 20px;
+   margin:10px 0;
+}
+
+.input-form input[type="pasword"]{
+    -webkit-text-security: square !important;
+}
+
+.forgot{
+    top: 20px;
+    float: right;
+    font-size: 17px;
+    margin: 10px;
+    margin-right: 70px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.info-form button{
+    align-self: center;
+    width: 90%;background-color: green;
+    height: 60px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(90deg, #2CDEB4 0%, rgba(25, 194, 154, 0.90625) 99.99%, rgba(19, 202, 158, 0) 100%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.signup{
+    margin-top: 70px;
+    margin-left: 25%;
+    text-decoration: underline;
+}
+.pass{
+    position: relative;
+}
+.signup a{
+    color: rgba(25, 194, 154, 0.90625);
+
+}
+
+.eye-img{
+    display: inline;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 70px;
+}
